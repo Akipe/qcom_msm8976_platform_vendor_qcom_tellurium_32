@@ -45,10 +45,10 @@ sbl1.mbn.bak            /dev/block/bootdevice/by-name/sbl1bak
 tz.mbn.bak              /dev/block/bootdevice/by-name/tzbak
 rpm.mbn.bak             /dev/block/bootdevice/by-name/rpmbak
 emmc_appsboot.mbn.bak   /dev/block/bootdevice/by-name/abootbak
-devcfg.mbn              /dev/block/bootdevice/by-name/devcfgbak
-cmnlib64.mbn            /dev/block/bootdevice/by-name/cmnlib64bak
-cmnlib.mbn              /dev/block/bootdevice/by-name/cmnlibbak
-keymaster.mbn           /dev/block/bootdevice/by-name/keymasterbak
+devcfg.mbn.bak          /dev/block/bootdevice/by-name/devcfgbak
+cmnlib64.mbn.bak        /dev/block/bootdevice/by-name/cmnlib64bak
+cmnlib.mbn.bak          /dev/block/bootdevice/by-name/cmnlibbak
+keymaster.mbn.bak       /dev/block/bootdevice/by-name/keymasterbak
 
 # For multiple file firmware images that differ from *.mbn and *.bin
 # you can specify filename.* to direct all files to the same location.
